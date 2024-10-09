@@ -9,13 +9,13 @@
 
 # API rute
 
-GET /nodes Dohvaća sve čvorove.
-GET /nodes/:id Dohvaća specifičan čvor.
-POST /nodes/add Dodaje novi čvor.
-PUT /nodes/update/:id Ažurira postojeći čvor.
-PUT /nodes/reorder/:id Mijenja redoslijed čvorova unutar istog roditeljskog čvora.
-PUT /nodes/move/:id Premješta čvor.
-DELETE /nodes/delete/:id Briše čvor.
+- GET /nodes Dohvaća sve čvorove.
+- GET /nodes/:id Dohvaća specifičan čvor.
+- POST /nodes/add Dodaje novi čvor.
+- PUT /nodes/update/:id Ažurira postojeći čvor.
+- PUT /nodes/reorder/:id Mijenja redoslijed čvorova unutar istog roditeljskog čvora.
+- PUT /nodes/move/:id Premješta čvor.
+- DELETE /nodes/delete/:id Briše čvor.
 
 # Pokretanje aplikacije
 
